@@ -1,26 +1,48 @@
-.container {
-
+body{
+  margin: 0
 }
+
+
 
 .header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header h5{
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+
+}
+
+h3{
   font-family: Verdana;
+  font-weight: bold;
   color: MediumAquamarine;
+  padding: 10px;
 }
 
-.header li{
-  list-style: none;
+nav{
+  text-align: right;
+  position: fixed;
+  width: 75%
+}
+
+nav li{
   display: inline-block;
+  width: 60px;
+  padding: 1px;
+  text-align: center;
 }
 
-.header li a {
+nav a {
+  list-style: none;
   color: black;
-  margin:0;
-  border:0px;
 }
