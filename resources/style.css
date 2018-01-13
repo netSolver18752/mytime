@@ -40,3 +40,49 @@ nav span {
 a {
   color: black;
 }
+
+.main_content {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+   width: 630px;
+   display: flex;
+}
+
+.first_article span {
+  border: 1px solid black;
+}
+
+.first_article p {
+  border: 1px solid black;
+}
+
+.first_article img {
+  border: 1px solid black;
+}
+
+.second_article {
+  border: 1px solid black;
+}
+
+.third_article {
+  border: 1px solid black;
+}
+
+.subtitle span {
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
